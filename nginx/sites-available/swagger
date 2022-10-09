@@ -1,0 +1,5 @@
+server {
+	listen 4200;
+	root /var/www/swagger;
+	index index.html;
+}

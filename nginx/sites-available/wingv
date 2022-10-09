@@ -1,0 +1,5 @@
+server {
+	listen 4000;
+	root /var/www/wingv;
+	index index.html index.htm index.nginx-debian.html;
+}

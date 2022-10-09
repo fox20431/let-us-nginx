@@ -1,0 +1,9 @@
+server {
+	listen 4010;
+	root /var/www/one_punch;
+	index index.html;
+	
+	location / {
+		try_files $uri $uri/ /index.html;
+	}
+}
